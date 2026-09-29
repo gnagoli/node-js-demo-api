@@ -11,6 +11,6 @@ const server = http.createServer((req,res)=>{
     }`)
 })
 
-server.listen(80, ()=>{
-    console.log("runing on port : 80")
+server.listen(3000, ()=>{
+    console.log("runing on port : 3000")
 });
